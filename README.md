@@ -82,4 +82,47 @@ Each algorithm was fine-tuned to suit the specific needs of urban and semi-urban
 ### Flowchart
 Below is a flowchart representing the logic of traffic light control strategies used in the simulation:
 
+![Traffic Light Flowchart](Images/flowchart.jpg)
+
+![Traffic Light simulation](Images/OSM_REAL_WORLD_NETWORK.png)
+
+![Traffic Light simulation](Images/OSM_NETWORK.png)
+
+## 6. Results and Analysis
+
+### Traffic Flow Comparison
+
+#### Urban Traffic
+- **Congestion:** High during peak hours; frequent stops at intersections.
+- **Emissions:** Elevated due to stop-and-go movement.
+- **Throughput:** High vehicle count but reduced speed.
+- **Average Waiting Time:** Longer, especially at complex intersections.
+
+#### Semi-Urban Traffic
+- **Congestion:** Moderate; more continuous flow.
+- **Emissions:** Lower due to fewer stops.
+- **Throughput:** Steady vehicle count; higher average speed.
+- **Average Waiting Time:** Shorter compared to urban settings.
+
+### Key Metrics
+
+- **Waiting Time:**  
+  Average time vehicles wait at intersections for both urban and semi-urban scenarios.
+  
+- **Throughput:**  
+  Number of vehicles processed per unit time, indicating efficiency.
+  
+- **Fuel Consumption & Emissions:**  
+  Comparative environmental impact in each setup.
+
+### Visual Representations
+
+- **Bar Plots:**  
+  Comparing:
+  - Average waiting time
+  - Throughput (vehicles/hour)
+  - Fuel consumption and emissions
+
+- **Traffic Congestion Visuals:**  
+  Speed/density heatmaps or congestion plots from SUMO to illustrate traffic build-up and flow.
 
